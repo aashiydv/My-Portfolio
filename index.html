@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!----------style css---------->
+    <link rel="stylesheet" href="style.css">
+    <!----------font awesome---------->
+    <script src="https://kit.fontawesome.com/0a1572b331.js" crossorigin="anonymous"></script>
+    <!----------typed js---------->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!----------navbar section----------->
+    <header class="header">
+        <a href="#" class="logo">Port<span>Folio</span>.</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!----------home section---------->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Hey, Myself</h3>
+            <h1><span class="crimson">Aashi Yadav</span></h1>
+            <h3>And I'm a <span id="element"></span></h3>
+            <p>Lorem ipsum dolor sit amet cons
+                adipisicing elit. Minima, consectetur ullam?</p>
+            <div class="social-icons">
+                <a href="https://twitter.com/@aashiyadav_"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/a_asshhhiii?igsh=bmFkdzFnY2d4b3l3"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aashi-yadav-16306b325"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/aashiydv"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#" class="btn-box">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="aa.png.jpg" alt>
+        </div>
+    </section>
+
+    <!----------about section---------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="aa.png.jpg">
+        </div>
+        <div class="about-text">
+            <h5>Get To Know More</h5>
+            <h1 class="heading">About <span class="crimson">Me</span></h1>
+            <h3>Frontend Developer!!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis beatae eius quae ab
+                consequatur
+                est perferendis dicta. Ad epellendus perferendis minus sunt error eos dicta enim accusantium
+                ipsum veniam debitis quasi sint cum fugiat porro quam, blanditiis a ratione quod!</p>
+            <a href="#" class="btn-box" id="about-btn">Read more</a>
+        </div>
+    </section>
+
+    <!----------skills section---------->
+    <section class="skills" id="skills">
+        <p class="section-p1">Explore My</p>
+        <h1 class="sub-title"><span class="crimson">Skills</span></h1>
+        <div class="skills-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Technical Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="skills-icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="skills-icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="skills-icon" class="icon" />
+                            <div>
+                                <h3>Javascript</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="skills-icon" class="icon" />
+                            <div>
+                                <h3>Typescript</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Professional Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="skills-icon" class="icon" />
+                            <div>
+                                <h3>Creativity</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="skills-icon" class="icon" />
+                            <div>
+                                <h3>Communication</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="skills-icon" class="icon" />
+                            <div>
+                                <h3>Problem Solving</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="skills-icon" class="icon" />
+                            <div>
+                                <h3>Teamwork</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------projects section---------->
+    <section id="projects">
+        <p class="section-p1">Browse My Recent</p>
+        <h1 class="sub-title"><span class="crimson">Projects</span></h1>
+        <div class="project-details-container">
+            <div class="about-container">
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="img1.png.jpg" alt="Project-1" class="project-img">
+                    </div>
+                    <h2 class="project-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 btn-box1"
+                            onclick="location.href='https://github.com'">Github</button>
+                        <button class="btn btn-color-2 btn-box1" onclick="location.href='https://github.com'">Live
+                            Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="img2.png.jpg" alt="Project-2" class="project-img">
+                    </div>
+                    <h2 class="project-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 btn-box1"
+                            onclick="location.href='https://github.com'">Github</button>
+                        <button class="btn btn-color-2 btn-box1" onclick="location.href='https://github.com'">Live
+                            Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="img3.png.jpg" alt="Project-3" class="project-img">
+                    </div>
+                    <h2 class="project-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 btn-box1"
+                            onclick="location.href='https://github.com'">Github</button>
+                        <button class="btn btn-color-2 btn-box1" onclick="location.href='https://github.com'">Live
+                            Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------contact section---------->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h1>Contact <span class="crimson">Me</span></h1>
+            <h3>Let's Work Together!!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem in sed, aliquid molestias
+                perspiciatis expedita aperiam magnam qui repellendus nobis enim p erferendis odio vel laboriosam
+                consequuntur dolores autem repellat natus!</p>
+            <div class="contact-list">
+                <li><i class="fa-solid fa-user"></i>Aashi Yadav</li>
+                <li><i class="fa-solid fa-envelope"></i>aashiyadav0706@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i>8920311246</li>
+            </div>
+            <div class="social-icons">
+                <a href="https://twitter.com/@aashiyadav_"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/a_asshhhiii?igsh=bmFkdzFnY2d4b3l3"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aashi-yadav-16306b325"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/aashi-ydv"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" name="Name" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="message" name="Email" placeholder="Enter Your Subject">
+                <textarea name="Message" id="Message" cols="40" rows="10" placeholder="Enter Your Message"
+                    required></textarea>
+                <input type="submit" value="Submit" class="send">
+            </form>
+        </div>
+    </section>
+
+    <!----------footer section---------->
+    <footer class="footer">
+        <div class="copyright">
+            <p>&copy; PortFlix| All Right Reserved.</p>
+        </div>
+    </footer>
+    <a href="#" class="top"><i class="fa-solid fa-angle-up"></i></a>
+
+    <!----------script js---------->
+    <script src="script.js"></script>
+</body>
+
+</html>
